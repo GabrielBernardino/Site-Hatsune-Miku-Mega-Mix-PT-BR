@@ -39,7 +39,7 @@
 .container
 {
     height:100vh;
-    background-image:url(img/1.jpg);
+    background-image:url(/p1.jpg);
     background-size: cover;
     background-position: fixed;
     display: flex;
@@ -109,7 +109,7 @@
 {
     .container
     {
-        background-image:url(/img/2.jpg);
+        background-image:url(/2.jpg);
         background-size: cover;
     }
     .container .logo
