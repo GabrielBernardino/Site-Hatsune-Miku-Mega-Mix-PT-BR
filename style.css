@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* ----------------- Inicio Pré-Carregamento da Página ------------------- */
+.loader
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    background:#0daee5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader img
+{
+    width: 120px;
+}
+.disppear
+{
+    animation: vanish 2s forwards;
+}
+@keyframes vanish 
+{
+    100%
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+/* ----------------- Fim Pré-Carregamento da Página ------------------- */
+.container
+{
+    height:100vh;
+    background-image:url(img/1.jpg);
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container .logo
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .logo img
+{
+    width: 500px;
+    padding-bottom: 20px;
+    
+}
+
+.container .imagem-miku img
+{
+    max-width: 650px;
+}
+.container .logo 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*antigos botões*\
+/*
+.container .logo .buttons .traducão .button
+{
+    font-family: 'Russo One', sans-serif;
+    width: 200px;
+    height: 50px;
+    background-color: #f52f8d;
+    border-radius: 7px;
+    border:solid 4px white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .logo .buttons .steam .button
+{
+    font-family: 'Russo One', sans-serif;
+    width: 200px;
+    height: 50px;
+    background-color: #2f7ef5;
+    border-radius: 7px;
+    border:solid 4px white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.container .logo .buttons .button img
+{
+    
+    width: 300px;
+}
+@media screen and (max-width: 1170px)
+{
+    .container
+    {
+        background-image:url(/img/2.jpg);
+        background-size: cover;
+    }
+    .container .logo
+    {
+       display: flex;
+       position: absolute;
+    }
+    .container .imagem-miku
+    {
+        display: flex;
+        padding-left: 50px;
+    }
+    .container .imagem-miku .img
+    {
+        width: 100%;
+    }
+
+   
+    
+
+
+
+}
